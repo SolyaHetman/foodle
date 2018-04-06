@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gul": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-wait": "0.0.2"
+  }
+}
