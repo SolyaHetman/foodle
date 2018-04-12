@@ -15,14 +15,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- FavIcon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lora|Montserrat" rel="stylesheet">
 
 </head>
 
 <body>
 
     <!-- START NAVIGATION -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">foodle</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white" id="main-navigation">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo"> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +46,7 @@
                     <a class="nav-link" href="#">Партнери</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Зареєструватись</a>
                 </li>
@@ -58,13 +60,13 @@
     <!-- END NAVIGATION -->
 
     <!-- START HEADER -->
-    <header class="pt-5" style="background-color: #c1c1c1; height: 600px;">
+    <header>
         <div class="container">
-            <div class="col-6 mx-auto text-center">
-                <h1 class="brand-name">foodle</h1>
+            <div class="col-6 mx-auto text-center text-block">
+                <img class="w-100" src="img/foodle.png" alt="Foodle logo">
                 <h1 class="sub-name">delicious for everyone</h1>
                 <p class="description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis, repudiandae!
+                    we are developing a service for the composition of the diet of people with diseases which requires a special diet
                 </p>
                 <i class="fa fa-chevron-down"></i>
             </div>
@@ -76,7 +78,7 @@
     <section id="description">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 d-flex align-items-center">
                     <div class="main-text">
                         <h1>Title</h1>
                         <p class="descritpion-text text-right">
@@ -87,11 +89,11 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 col-xl-6">
                     <div class="video">
-                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                        <iframe class="w-100" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0"></iframe>
                     </div>
                 </div>
-                <div class="col-3 mx-auto">
-                    <a class="btn btn-primary" href="#">SignUp</a>
+                <div class="col-2 mx-auto pt-4">
+                    <a class="btn sign-up-btn" href="#">Зареєстуватися</a>
                 </div>
             </div>
         </div>
@@ -102,8 +104,7 @@
     <section id="features">
         <div class="container">
             <h1 class="text-center">Можливості</h1>
-
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills pb-5 d-flex justify-content-between" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-1" role="tab" aria-controls="pills-1" aria-selected="true">Діабет</a>
                 </li>
@@ -130,7 +131,7 @@
                             </div>
                         </div>
                         <div class="col-lg-8 col-xl-8">
-                            <div>
+                            <div class="text">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure suscipit eos eum eaque minima natus fugiat quam officiis praesentium illum nam est odio quod aut optio ut provident, aperiam vitae vel? Esse doloremque laborum
                                     dolores nisi minus eos. Doloremque eaque itaque enim quaerat iste pariatur magnam, voluptatum, nam alias excepturi aspernatur doloribus fuga quasi temporibus vel quam explicabo tempora sapiente minus voluptates ipsa.
                                     Explicabo, fuga. Officia sint sunt maxime, repellat qui ab harum corrupti nam nesciunt, tempore provident quis ad possimus? Itaque, tempora iste dicta, accusantium similique iure, porro ullam minima odit reiciendis
@@ -218,44 +219,44 @@
             <div class="row">
                 <div class="col-lg-4 col-xl-4 border-right border-bottom">
                     <div class="text-center ">
-                        <img src="" alt="">
+                        <i class="fa fa-cogs"></i>
                         <h4>spaceman</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quod?</p>
+                        <p>She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-4  border-right border-bottom">
                     <div class="text-center">
-                        <img src="" alt="">
+                        <i class="fa fa-space-shuttle" aria-hidden="true"></i>
                         <h4>spaceman</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quod?</p>
+                        <p>She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-4 border-bottom">
                     <div class="text-center">
-                        <img src="" alt="">
+                        <i class="fa fa-moon-o" aria-hidden="true"></i>
                         <h4>spaceman</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quod?</p>
+                        <p>She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-4 border-right">
                     <div class="text-center">
-                        <img src="" alt="">
+                        <i class="fa fa-trophy" aria-hidden="true"></i>
                         <h4>spaceman</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quod?</p>
+                        <p>She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-4 border-right">
                     <div class="text-center">
-                        <img src="" alt="">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
                         <h4>spaceman</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quod?</p>
+                        <p>She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-4">
                     <div class="text-center">
-                        <img src="" alt="">
+                        <i class="fa fa-rebel" aria-hidden="true"></i>
                         <h4>spaceman</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, quod?</p>
+                        <p>She gave my mother such a turn, that I have always been convinced I am indebted to Miss Betsey for having been born on a Friday.</p>
                     </div>
                 </div>
 
@@ -271,16 +272,19 @@
             <h1 class="text-center">Додаток</h1>
             <div class="row">
                 <div class="col-lg-4 col-xl-4">
-                    <img class="w-100" src="img/iphone.jpeg" alt="">
+                    <img class="w-100" src="img/iphones.png" alt="iphones">
                 </div>
-                <div class="col-lg-8 col-xl-8">
+                <div class="col-lg-8 col-xl-8 d-flex flex-column justify-content-center">
                     <p class="app-text text-right">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque vero magni sequi perspiciatis eveniet facere quos deleniti obcaecati, dolore, provident ipsum ducimus repellat nobis dignissimos dolor, cupiditate dicta? Nisi, illum. Incidunt nostrum quia
-                        maiores quaerat architecto. Suscipit harum deserunt dolorum deleniti dolore ducimus adipisci similique quisquam ratione. Omnis, quas repellendus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta obcaecati architecto labore distinctio aliquid fuga repudiandae veniam error culpa fugiat sequi nam amet, sit commodi eligendi quod quidem a eveniet voluptas, praesentium molestiae. Adipisci
+                        fugit, dolorum accusantium ad corporis vero dolore ipsam omnis itaque, consequuntur dolorem at architecto aliquam, ducimus doloribus assumenda blanditiis qui placeat earum in. Dolore dolor error quidem sapiente laudantium a illo
+                        voluptates delectus nulla! Esse ea fugiat soluta quidem optio at obcaecati eaque tenetur quam deleniti repudiandae repellendus vitae laborum cum, dicta, molestiae odit minima. Labore architecto aut sed a nulla illum suscipit, officiis
+                        quia perspiciatis consectetur natus nostrum explicabo. Iste officia consectetur, libero quidem tempore doloribus, ab blanditiis magni, tempora optio voluptate iure nam ullam necessitatibus. Reprehenderit quisquam ab error vel dolorum
+                        asperiores quod tenetur recusandae reiciendis officiis, laborum pariatur, natus sed, molestiae nam nulla quasi nostrum. Amet assumenda quas ducimus possimus vel. Saepe, exercitationem.
                     </p>
                     <div class="store-icons d-flex justify-content-center">
-                        <a class="btn btn-primary d-block" href="#">App store</a>
-                        <a class="btn btn-primary d-block ml-5" href="#">Play market</a>
+                        <a class="btn d-block app-store" href="https://www.appstore.com/"><img class="w-100" src="img/appstore.png" alt=""></a>
+                        <a class="btn d-block ml-5 play-market" href="https://play.google.com/store/apps?hl=ru"><img class="w-100" src="img/playmarket.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -291,7 +295,7 @@
     <!-- END APP -->
 
     <!-- START PARTNERS -->
-    <section id="parners" style="background-color: #000;">
+    <section id="partners">
         <div class="container">
             <h1 class="text-center">Партнери</h1>
             <div class="row">
