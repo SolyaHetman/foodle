@@ -1,0 +1,38 @@
+// ===== Base Folder====== //
+@import 'base/_typography';
+// ======================= //
+// ===== Components Folder====== //
+@import 'components/_buttons';
+// ======================= //
+// ===== Helpers Folder====== //
+@import 'helpers/_functions';
+@import 'helpers/_mixins';
+// ======================= //
+// ===== Layout Folder====== //
+@import 'layout/_navigation';
+@import 'layout/_header';
+@import 'layout/_description';
+@import 'layout/_features';
+@import 'layout/_examples';
+@import 'layout/_advantages';
+@import 'layout/_app';
+@import 'layout/_partner';
+@import 'layout/_footer';
+// ======================= //
+// ===== Pages Folder====== //
+@import 'pages/_home';
+// ======================= //
+body {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+header {
+    font-family: 'Lora', serif !important;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+//

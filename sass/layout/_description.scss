@@ -1,0 +1,37 @@
+#description {
+    padding-top: 150px;
+    h1 {
+        font-size: 42px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 16px;
+    }
+    iframe {
+        border: none;
+    }
+    .sign-up-btn {
+        font-size: 10.5px;
+        color: #fff;
+        background-color: #000;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #description {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #description {
+        padding-top: 45px;
+        h1 {
+            font-size: 28px;
+        }
+        p {
+            font-size: 13px;
+        }
+    }
+}

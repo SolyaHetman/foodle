@@ -1,0 +1,82 @@
+header {
+    background: url('../img/head-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    margin-top: 100px;
+    min-height: 980px;
+    .text-block {
+        padding-top: 290px;
+        img {
+            width: 100%;
+        }
+        h1 {
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding-top: 10px;
+            color: #fff;
+            opacity: 0.6;
+        }
+        p {
+            font-size: 23px;
+            font-style: italic;
+            padding-top: 65px;
+            color: #fff;
+            opacity: 0.6;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header {
+        margin-top: 60px;
+        min-height: 500px;
+        img {
+            max-width: 300px;
+        }
+        .text-block {
+            padding-top: 100px;
+        }
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    header {
+        min-height: 300px;
+        margin-top: 73px;
+        img {
+            max-width: 250px;
+        }
+        .text-block {
+            padding-top: 40px;
+            h1 {
+                font-size: 26px;
+            }
+            p {
+                font-size: 16px;
+                padding-top: 25px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    header {
+        min-height: 300px;
+        margin-top: 60px;
+        img {
+            max-width: 200px;
+        }
+        .text-block {
+            padding-top: 40px;
+            h1 {
+                font-size: 24px;
+            }
+            p {
+                font-size: 14px;
+                padding-top: 25px;
+            }
+        }
+    }
+}

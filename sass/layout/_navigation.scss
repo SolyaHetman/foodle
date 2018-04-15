@@ -1,0 +1,102 @@
+nav#main-navigation {
+    box-shadow: 0 5px 5px -5px #c1c1c1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    i.fa-bars {
+        color: #000;
+        font-size: 30px;
+    }
+    #navbarCollapse {
+        padding-left: 140px;
+    }
+    ul.navbar-nav {
+        .navbar-brand {
+            color: black;
+        }
+        li {
+            a {
+                font-size: 12px;
+                color: #000;
+                font-weight: bold;
+                display: inline-block;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 80%;
+                    transform: scaleX(0);
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin-left: auto;
+                    margin-right: auto;
+                    background-color: #000;
+                    transform-origin: bottom right;
+                    transition: transform 0.25s ease-out;
+                }
+                &:hover::after {
+                    transform: scaleX(1);
+                    transform-origin: bottom left;
+                }
+            }
+        }
+        &.ml-auto {
+            li {
+                a {
+                    &::after {
+                        display: none;
+                    }
+                }
+                &:last-child {
+                    border: 2px #000 solid;
+                    border-radius: 30px;
+                    a {
+                        padding: 10px 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    nav#main-navigation {
+        .navbar-brand {
+            img {
+                max-width: 40%;
+            }
+        }
+        #navbarCollapse {
+            ul {
+                li {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav#main-navigation {
+        #navbarCollapse {
+            padding-left: 0px;
+            ul {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav#main-navigation {
+        .navbar-brand {
+            img {
+                max-width: 40%;
+            }
+        }
+    }
+}
