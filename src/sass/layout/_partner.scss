@@ -1,0 +1,24 @@
+#partners {
+    background-color: #000;
+    padding-bottom: 100px;
+    h1 {
+        padding-top: 50px;
+        font-size: 36px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 50px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 10%;
+            height: 4px;
+            left: 0;
+            right: 0;
+            bottom: -15px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+        }
+    }
+}
